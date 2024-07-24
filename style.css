@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(/images/backgor.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow around the container */
+    background-color: #fff;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navbar .logo{
+    width: 80px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+    
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: rgb(218, 71, 18);
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: rgb(236, 79, 22);
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,20);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background: rgb(59,174,209);
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform:translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover .boy{
+    left: 55%;
+
+}
+.para{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center; /* Align items vertically center */
+    border-bottom: 3px solid black; 
+    border-top: 3px solid black; /* Underline the navigation bar */
+}
+.dilen{
+        width: 200px; /* Set the desired width */
+        height: 200px; /* Set the desired height */
+        border-radius: 50%; /* This makes the image round */
+        object-fit: cover; /* This ensures the image covers the entire area */
+        padding: 20px;
+}
+.text {
+    flex: 1; /* Allow the text container to grow */
+    margin: 10px;
+}
+.text span{
+    color: rgb(236, 79, 22);
+}
+.text h1{
+    text-decoration: underline;
+    color: rgb(236, 79, 22);
+}
+.icons a{
+    text-decoration: none;
+    color: #000;
+    margin-left: -60px;
+    font-size: 40px;
+}
+.icons ion-icon:hover{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: 4s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #575757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
